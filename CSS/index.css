@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  border: 1px solid black;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: #FE2E64;
+}
+
+main{
+  background-color: #FFFF00;
+  flex-grow: 2;
+}
+
+footer{
+  background-color: #0431B4;
+}
