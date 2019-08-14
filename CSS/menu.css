@@ -1,19 +1,29 @@
 .navigation{
+
   list-style: none;
   margin: 0;
-  background: #F7819F;
 
   display: flex;
   flex-direction: row-reverse;
+
 }
 
-.navigation a {
+.navigation a{
+
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: black;
+  color: white;
+
 }
 
 .navigation a:hover{
-  background: #B40404;
+
+  background-image: url("http://1.bp.blogspot.com/-tWUTXTaP_lI/Ub51NEoZ3pI/AAAAAAAAOrg/xrOyI46u2Ms/s1600/glitter_amarelo1.gif");
+  color: white;
+
+}
+
+center a{
+  color: white;
 }

@@ -1,27 +1,40 @@
-* {
-  margin: 0;
+*{
+
+  margin: 0.2em;
   padding: 0;
+
 }
 
 .container{
-  border: 1px solid black;
+  border: :1px solid black;
   width: 80%;
   height: 100%;
   margin: 0 auto;
 
+
   display: flex;
   flex-direction: column;
+
 }
 
 header{
-  background-color: #FE2E64;
+
+  background-color: #286DA8;
+  color: white;
+
 }
 
 main{
-  background-color: #FFFF00;
-  flex-grow: 2;
+
+  background-color: #D9D9D9;
+  flex-grow: 1;
+  background-image: url("https://nova-escola-producao.s3.amazonaws.com/xC32vrcsNeQhhguMRAcp9dZT3zPJASXRw7XwHdyscqyfgbHfUKk47snQKZQm/mentira-nao-escola-publica-escola-particular.jpg");
+
 }
 
+
 footer{
-  background-color: #0431B4;
+
+  background-color: #286DA8;
+
 }
