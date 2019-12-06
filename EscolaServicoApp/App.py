@@ -29,7 +29,7 @@ aluno_schema = {
         'nome': {'type': 'string'},
         'matricula': {'type': 'string'},
         'cpf': {'type': 'string'},
-        'nascimento': {'type': 'date'},
+        'nascimento': {'type': 'string'},
         'id_endereco': {'type': 'string'},
         'id_curso': {'type': 'string'}
 

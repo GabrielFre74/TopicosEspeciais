@@ -195,3 +195,6 @@
 2019-08-19 09:30:43,965 - INFO - [{'id_turno': 1, 'nome': 'manha'}, {'id_turno': 2, 'nome': 'tarde'}]
 2019-11-01 09:26:25,955 - INFO - Listanto alunos.
 2019-11-01 09:26:25,967 - INFO - [{'id_aluno': 1, 'nome': 'joana', 'matricula': '201713710045', 'cpf': '78899546211', 'nascimento': '2001/02/02', 'fk_id_endereco': 1, 'fk_id_curso': 1}, {'id_aluno': 2, 'nome': 'luiza', 'matricula': '201123230045', 'cpf': '78898123411', 'nascimento': '2002/03/02', 'fk_id_endereco': 1, 'fk_id_curso': 2}, {'id_aluno': 3, 'nome': 'ada lovelace', 'matricula': '21654178022', 'cpf': '74488510422', 'nascimento': '2001/03/06', 'fk_id_endereco': 2, 'fk_id_curso': 2}]
+2019-12-06 10:22:38,117 - INFO - Cadastrando aluno.
+2019-12-06 10:22:38,131 - ERROR - Algum problema aconteceu.
+2019-12-06 10:22:38,131 - ERROR - Exceção: 'id_endereco'
