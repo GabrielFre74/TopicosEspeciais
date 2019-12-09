@@ -198,3 +198,12 @@
 2019-12-06 10:22:38,117 - INFO - Cadastrando aluno.
 2019-12-06 10:22:38,131 - ERROR - Algum problema aconteceu.
 2019-12-06 10:22:38,131 - ERROR - Exceção: 'id_endereco'
+2019-12-09 08:54:38,197 - INFO - Cadastrando aluno.
+2019-12-09 08:54:38,214 - ERROR - Algum problema aconteceu.
+2019-12-09 08:54:38,214 - ERROR - Exceção: 'id_endereco'
+2019-12-09 09:05:36,527 - INFO - Cadastrando aluno.
+2019-12-09 09:05:36,528 - ERROR - Algum problema aconteceu.
+2019-12-09 09:05:36,528 - ERROR - Exceção: 'nome'
+2019-12-09 09:06:07,983 - INFO - Cadastrando aluno.
+2019-12-09 09:06:07,984 - ERROR - Algum problema aconteceu.
+2019-12-09 09:06:07,984 - ERROR - Exceção: 'id_endereco'
