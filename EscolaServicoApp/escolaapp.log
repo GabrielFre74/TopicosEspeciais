@@ -207,3 +207,73 @@
 2019-12-09 09:06:07,983 - INFO - Cadastrando aluno.
 2019-12-09 09:06:07,984 - ERROR - Algum problema aconteceu.
 2019-12-09 09:06:07,984 - ERROR - Exceção: 'id_endereco'
+2019-12-12 11:08:05,682 - INFO - Cadastrando aluno.
+2019-12-12 11:08:05,699 - ERROR - Algum problema aconteceu.
+2019-12-12 11:08:05,704 - ERROR - Exceção: 'id_endereco'
+2019-12-12 11:24:20,108 - INFO - Cadastrando aluno.
+2019-12-12 11:24:20,108 - ERROR - Algum problema aconteceu.
+2019-12-12 11:24:20,108 - ERROR - Exceção: 'id_endereco'
+2019-12-12 11:32:19,716 - INFO - Cadastrando aluno.
+2019-12-12 11:32:19,717 - ERROR - Algum problema aconteceu.
+2019-12-12 11:32:19,717 - ERROR - Exceção: 'id_endereco'
+2019-12-12 11:36:06,286 - INFO - Cadastrando aluno.
+2019-12-12 11:36:06,286 - ERROR - Algum problema aconteceu.
+2019-12-12 11:36:06,286 - ERROR - Exceção: 'id_endereco'
+2019-12-12 12:18:06,162 - INFO - Cadastrando aluno.
+2019-12-12 12:18:06,164 - ERROR - Algum problema aconteceu.
+2019-12-12 12:18:06,165 - ERROR - Exceção: 'id_endereco'
+2019-12-12 13:51:15,448 - INFO - Cadastrando aluno.
+2019-12-12 13:51:15,462 - ERROR - Algum problema aconteceu.
+2019-12-12 13:51:15,464 - ERROR - Exceção: 'id_endereco'
+2019-12-12 13:56:29,750 - INFO - Listanto alunos.
+2019-12-12 13:56:29,751 - INFO - []
+2019-12-12 13:56:31,123 - INFO - Listanto alunos.
+2019-12-12 13:56:31,124 - INFO - []
+2019-12-12 13:56:31,286 - INFO - Listanto alunos.
+2019-12-12 13:56:31,286 - INFO - []
+2019-12-12 13:56:31,453 - INFO - Listanto alunos.
+2019-12-12 13:56:31,454 - INFO - []
+2019-12-12 13:56:32,749 - INFO - Listanto alunos.
+2019-12-12 13:56:32,749 - INFO - []
+2019-12-12 13:56:33,288 - INFO - Listanto alunos.
+2019-12-12 13:56:33,289 - INFO - []
+2019-12-12 13:56:33,934 - INFO - Listanto alunos.
+2019-12-12 13:56:33,935 - INFO - []
+2019-12-12 13:56:34,331 - INFO - Listanto alunos.
+2019-12-12 13:56:34,332 - INFO - []
+2019-12-12 13:56:34,741 - INFO - Listanto alunos.
+2019-12-12 13:56:34,742 - INFO - []
+2019-12-12 13:56:36,248 - INFO - Listanto alunos.
+2019-12-12 13:56:36,248 - INFO - []
+2019-12-12 14:43:42,128 - INFO - Cadastrando aluno.
+2019-12-12 14:43:42,178 - ERROR - Algum problema aconteceu.
+2019-12-12 14:43:42,178 - ERROR - Exceção: 'id_endereco'
+2019-12-12 14:43:48,065 - INFO - Listanto alunos.
+2019-12-12 14:43:48,066 - INFO - []
+2019-12-12 14:53:31,241 - INFO - Cadastrando aluno.
+2019-12-12 14:53:31,241 - ERROR - Algum problema aconteceu.
+2019-12-12 14:53:31,241 - ERROR - Exceção: 'id_endereco'
+2019-12-12 14:56:18,145 - INFO - Cadastrando aluno.
+2019-12-12 14:56:18,145 - ERROR - Algum problema aconteceu.
+2019-12-12 14:56:18,145 - ERROR - Exceção: 'id_endereco'
+2019-12-12 14:56:40,595 - INFO - Listanto alunos.
+2019-12-12 14:56:40,596 - INFO - []
+2019-12-12 14:56:41,052 - INFO - Listanto alunos.
+2019-12-12 14:56:41,052 - INFO - []
+2019-12-12 14:56:41,221 - INFO - Listanto alunos.
+2019-12-12 14:56:41,222 - INFO - []
+2019-12-12 15:14:51,796 - INFO - Cadastrando aluno.
+2019-12-12 15:14:51,797 - ERROR - Algum problema aconteceu.
+2019-12-12 15:14:51,799 - ERROR - Exceção: 'id_curso'
+2019-12-12 15:16:51,288 - INFO - Cadastrando aluno.
+2019-12-12 15:17:24,769 - INFO - Listanto alunos.
+2019-12-12 15:17:24,770 - INFO - [{'id_aluno': 1, 'nome': 'Gael Freitas', 'matricula': '201613710007', 'cpf': '01829754440', 'nascimento': '2002-04-27', 'id_endereco': 5451, 'id_curso': 6547}]
+2019-12-12 15:58:15,260 - INFO - Cadastrando campus.
+2019-12-12 15:58:15,290 - ERROR - Algum problema aconteceu.
+2019-12-12 15:58:15,290 - ERROR - Exceção: name 'campus' is not defined
+2019-12-12 16:00:02,415 - INFO - Cadastrando campus.
+2019-12-12 16:00:02,416 - ERROR - Algum problema aconteceu.
+2019-12-12 16:00:02,416 - ERROR - Exceção: 'sigla'
+2019-12-12 16:17:09,936 - INFO - Cadastrando campus.
+2019-12-12 16:17:09,936 - ERROR - Algum problema aconteceu.
+2019-12-12 16:17:09,936 - ERROR - Exceção: 'sigla'

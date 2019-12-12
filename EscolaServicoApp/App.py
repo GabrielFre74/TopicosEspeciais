@@ -111,7 +111,7 @@ professor_schema = {
     }
 }
 
-Nome_DB = "EscolaApp_versao2.db"
+Nome_DB = "EscolaApp.db"
 
 @app.route("/alunos", methods=['GET'])
 def getAlunos(): #testado ok
@@ -231,7 +231,7 @@ def updateAluno(id):
 
             cursor.execute("""
                 UPDATE tb_aluno
-                SET nome=?, matricula=?, cpf=?, nascimento=?, fk_id_endereco=?, fk_id_curso=?
+                SET nome=?, matricula=?, cpf=?, nascimento=?, id_endereco=?, id_curso=?
                 WHERE id_aluno = ?;
             """, (nome, matricula, cpf, nascimento, id_endereco, id_curso, id))
             conn.commit()
@@ -771,31 +771,31 @@ def updateEscola(id):
     return jsonify(escola)
 
 
-@app.route("/campi")
-def getCampi(): # testado ok
-    logger.info("Listando campi.")
-
+@app.route("/campi", methods=['GET'])
+def getCampi(): #testado ok
+    logger.info("Listanto campi.")
     try:
         conn = sqlite3.connect(Nome_DB)
         cursor = conn.cursor()
 
         cursor.execute("""
-            SELECT * FROM tb_campus;
+            SELECT *
+            FROM tb_campus;
         """)
 
+        #alterações
         campi = []
         for linha in cursor.fetchall():
             campus = {
                 "id_campus":linha[0],
-                "sigla": linha[1],
-                "cidade": linha[2]
+                "sigla":linha[1],
+                "cidade":linha[2]
             }
             campi.append(campus)
         logger.info(campi)
-
         conn.close()
-    except(sqlite3.Error):
-        logger.error("Ocorreu um erro.")
+    except sqlite3.Error:
+        return("Ocorreu um erro.")
     return jsonify(campi)
 
 
@@ -826,9 +826,11 @@ def getCampus(id): # testado ok
 @schema.validate(campus_schema)
 def setCampus(): # testado ok
     try:
+        logger.info("Cadastrando campus.")
         campus = request.get_json()
         sigla = campus['sigla']
         cidade = campus['cidade']
+
 
         conn = sqlite3.connect(Nome_DB)
         cursor = conn.cursor()
@@ -840,10 +842,12 @@ def setCampus(): # testado ok
         conn.close()
 
         id = cursor.lastrowid
-        campus["id_campus"] = id
-    except(sqlite3.Error):
-        logger.error("Ocorreu um erro.")
-    return jsonify(campus)
+        campus['id_campus'] = id
+    except (sqlite3.Error, Exception) as e:
+        logger.error("Algum problema aconteceu.")
+        logger.error("Exceção: %s" % e)
+
+    return (jsonify(campus))
 
 @app.route("/campus/<int:id>", methods=['PUT'])
 def updateCampus(id):

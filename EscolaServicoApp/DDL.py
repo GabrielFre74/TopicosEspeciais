@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('EscolaApp_versao2.db')
+conn = sqlite3.connect('EscolaApp.db')
 
 cursor = conn.cursor()
 cursor.execute("""
