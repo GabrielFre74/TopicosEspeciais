@@ -277,3 +277,79 @@
 2019-12-12 16:17:09,936 - INFO - Cadastrando campus.
 2019-12-12 16:17:09,936 - ERROR - Algum problema aconteceu.
 2019-12-12 16:17:09,936 - ERROR - Exceção: 'sigla'
+2019-12-13 08:51:25,961 - INFO - Cadastrando aluno.
+2019-12-13 08:51:29,416 - INFO - Listanto alunos.
+2019-12-13 08:51:29,416 - INFO - [{'id_aluno': 1, 'nome': 'Gael Freitas', 'matricula': '201613710007', 'cpf': '01829754440', 'nascimento': '2002-04-27', 'id_endereco': 5451, 'id_curso': 6547}, {'id_aluno': 2, 'nome': 'Joyce Pinheiro', 'matricula': '201613710012', 'cpf': '85272745148', 'nascimento': '2019-12-01', 'id_endereco': 2523, 'id_curso': 8754}]
+2019-12-13 08:51:40,619 - INFO - Cadastrando campus.
+2019-12-13 08:51:40,619 - ERROR - Algum problema aconteceu.
+2019-12-13 08:51:40,620 - ERROR - Exceção: 'sigla'
+2019-12-13 09:02:24,939 - INFO - Cadastrando campus.
+2019-12-13 09:02:24,940 - ERROR - Algum problema aconteceu.
+2019-12-13 09:02:24,940 - ERROR - Exceção: 'sigla'
+2019-12-13 09:03:41,288 - INFO - Cadastrando campus.
+2019-12-13 09:03:41,288 - ERROR - Algum problema aconteceu.
+2019-12-13 09:03:41,288 - ERROR - Exceção: 'sigla'
+2019-12-13 09:03:55,780 - INFO - Listanto campi.
+2019-12-13 09:03:55,781 - INFO - []
+2019-12-13 09:04:53,354 - INFO - Cadastrando curso.
+2019-12-13 09:04:53,354 - ERROR - Algum problema aconteceu.
+2019-12-13 09:04:53,354 - ERROR - Exceção: 'nome'
+2019-12-13 09:07:45,335 - INFO - Cadastrando curso.
+2019-12-13 09:07:45,335 - ERROR - Algum problema aconteceu.
+2019-12-13 09:07:45,335 - ERROR - Exceção: 'nome'
+2019-12-13 09:25:05,522 - INFO - Cadastrando aluno.
+2019-12-13 09:25:23,528 - INFO - Listanto alunos.
+2019-12-13 09:25:23,529 - INFO - [{'id_aluno': 1, 'nome': 'Gael Freitas', 'matricula': '201613710007', 'cpf': '01829754440', 'nascimento': '2002-04-27', 'id_endereco': 5451, 'id_curso': 6547}, {'id_aluno': 2, 'nome': 'Joyce Pinheiro', 'matricula': '201613710012', 'cpf': '85272745148', 'nascimento': '2019-12-01', 'id_endereco': 2523, 'id_curso': 8754}, {'id_aluno': 3, 'nome': 'Gael Freitas', 'matricula': '124525247532', 'cpf': '14122211133', 'nascimento': '2019-12-09', 'id_endereco': 2362, 'id_curso': 6857}]
+2019-12-13 10:15:23,756 - INFO - Cadastrando endereco.
+2019-12-13 10:15:23,757 - ERROR - Algum problema aconteceu.
+2019-12-13 10:15:23,758 - ERROR - Exceção: 'logradouro'
+2019-12-13 10:15:27,765 - INFO - Listanto endereco.
+2019-12-13 10:15:27,766 - INFO - []
+2019-12-13 10:15:30,216 - INFO - Listanto endereco.
+2019-12-13 10:15:30,217 - INFO - []
+2019-12-13 10:18:54,762 - INFO - Cadastrando endereco.
+2019-12-13 10:18:54,766 - ERROR - Algum problema aconteceu.
+2019-12-13 10:18:54,767 - ERROR - Exceção: 'logradouro'
+2019-12-13 10:18:59,025 - INFO - Listanto endereco.
+2019-12-13 10:18:59,026 - INFO - []
+2019-12-13 10:20:45,887 - INFO - Cadastrando endereco.
+2019-12-13 10:20:45,887 - ERROR - Algum problema aconteceu.
+2019-12-13 10:20:45,887 - ERROR - Exceção: 'logradouro'
+2019-12-13 10:21:47,781 - INFO - Cadastrando endereco.
+2019-12-13 10:21:47,781 - ERROR - Algum problema aconteceu.
+2019-12-13 10:21:47,781 - ERROR - Exceção: 'logradouro'
+2019-12-13 10:21:49,914 - INFO - Listanto endereco.
+2019-12-13 10:21:49,915 - INFO - []
+2019-12-13 10:21:52,689 - INFO - Listanto endereco.
+2019-12-13 10:21:52,690 - INFO - []
+2019-12-13 10:29:46,096 - INFO - Cadastrando endereco.
+2019-12-13 10:29:49,985 - INFO - Listanto endereco.
+2019-12-13 10:29:49,986 - INFO - [{'id_endereco': 1, 'logradouro': 'rua de baixo', 'complemento': 'seila', 'bairro': 'sao joaoa', 'cep': '58275000', 'numero': 52}]
+2019-12-13 10:33:55,015 - INFO - Cadastrando curso.
+2019-12-13 10:34:01,638 - INFO - Listanto cursos.
+2019-12-13 10:36:30,389 - INFO - Listando turno.
+2019-12-13 10:36:30,390 - INFO - [{'id_turno': 1, 'nome': 'tarde'}]
+2019-12-13 10:38:32,449 - INFO - Cadastrando escola.
+2019-12-13 10:38:32,449 - ERROR - Algum problema aconteceu.
+2019-12-13 10:38:32,449 - ERROR - Exceção: 'nome'
+2019-12-13 10:38:36,685 - INFO - Listanto escolas.
+2019-12-13 10:38:36,686 - INFO - []
+2019-12-13 10:38:49,790 - INFO - Cadastrando escola.
+2019-12-13 10:38:49,791 - ERROR - Algum problema aconteceu.
+2019-12-13 10:38:49,791 - ERROR - Exceção: 'id_endereco'
+2019-12-13 10:39:02,389 - INFO - Cadastrando escola.
+2019-12-13 10:39:02,390 - ERROR - Algum problema aconteceu.
+2019-12-13 10:39:02,390 - ERROR - Exceção: 'id_endereco'
+2019-12-13 10:39:05,160 - INFO - Listanto escolas.
+2019-12-13 10:39:05,161 - INFO - []
+2019-12-13 10:39:06,494 - INFO - Listanto escolas.
+2019-12-13 10:39:06,494 - INFO - []
+2019-12-13 10:39:06,672 - INFO - Listanto escolas.
+2019-12-13 10:39:06,672 - INFO - []
+2019-12-13 10:41:04,208 - INFO - Cadastrando escola.
+2019-12-13 10:41:07,657 - INFO - Listanto escolas.
+2019-12-13 10:41:07,658 - INFO - [{'id_escola': 1, 'nome': 'escola top', 'id_endereco': 65, 'id_campus': 1}]
+2019-12-13 10:43:51,363 - INFO - Cadastrando campus.
+2019-12-13 10:43:54,131 - INFO - Listanto campi.
+2019-12-13 10:43:54,131 - INFO - [{'id_campus': 1, 'sigla': 'PB', 'cidade': 'Guarabira'}]
+2019-12-13 10:46:28,513 - INFO - Listanto turmas.
